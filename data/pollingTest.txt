@@ -1,0 +1,11 @@
+@relation polling
+
+@attribute mesageTime date "yyyy-MM-dd HH"
+@attribute messageClass {CT600, SA100, SA800}
+@attribute messageSize numeric
+@attribute responseTime {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+
+
+@data
+"2017-01-01 13",    CT600,	1234567,	?
